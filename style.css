@@ -1,8 +1,15 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	background-image: url('');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -78,14 +85,12 @@ a{
 
 
 .navigation-bar{
-	height: 7.5%;
-	width: 60%;
+	height: 100;
 
-
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 
 	text-align: center;
 	position: center;
@@ -116,6 +121,21 @@ li a:hover{
 	background-color: #cc0000;
 }
 
+/* Na Tsi Hi Lodge 71 Image */
+.icon {
+	height: 5%;
+	width: 5%;
+	margin-left: 2px;
+}
+
+.redLodgeName {
+	float: right;
+	width: 25%;
+	height: 70%;
+	margin-top: -85px;
+	margin-right: 15px;
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color: #008000;
@@ -132,6 +152,7 @@ content */
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-top: 25px;
 }
 
 /* Dropdown Content 
